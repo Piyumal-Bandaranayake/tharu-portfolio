@@ -1,10 +1,9 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Showreel from "@/components/Showreel";
 import FeaturedWork from "@/components/FeaturedWork";
-import Equipment from "@/components/Equipment";
 import Services from "@/components/Services";
-import ClientLogos from "@/components/ClientLogos";
-import Testimonials from "@/components/Testimonials";
+import ContactCTA from "@/components/ContactCTA";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -13,11 +12,10 @@ export default function Home() {
     <main className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <Navbar />
       <Hero />
+      <Showreel />
       <FeaturedWork />
-      <Equipment />
       <Services />
-      <ClientLogos />
-      <Testimonials />
+      <ContactCTA />
       <Contact />
       <Footer />
     </main>
