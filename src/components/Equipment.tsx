@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Camera, Drone, ShieldCheck, Film } from "lucide-react";
+import { Camera, ShieldCheck, Film } from "lucide-react";
 
 export default function Equipment() {
   const gear = [
